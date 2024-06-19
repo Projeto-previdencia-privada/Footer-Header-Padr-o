@@ -25,9 +25,9 @@ const Footer = () => {
             {
               categoria: "Serviços",
               links: [
-                { label: "Gestão de Contribuintes", path: "http://192.168.37.8:8090/home" },
-                { label: "Gestão de Benefícios", path: "/gestao-beneficios" },
-                { label: "Gestão de Empréstimos", path: "/gestao-emprestimos" },
+                { label: "Gestão de Contribuintes", path: "http://192.168.37.8:8090/login" },
+                { label: "Gestão de Benefícios", path: "http://192.168.37.8:5300/" },
+                { label: "Gestão de Empréstimos", path: "http://192.168.37.8:8080/" },
               ],
             },
           ].map((item, index) => (
